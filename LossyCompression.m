@@ -50,5 +50,5 @@ for k=1:K
     received = [received ; y5];
 end
 
-wavwrite(received, fs , "sex.wav")
+wavwrite(received, fs , "output.wav")
 
